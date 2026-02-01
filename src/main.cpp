@@ -24,7 +24,7 @@
 
 // ================== GLOBAL ==================
 WiFiManager wifiManager;
-AsyncWebServer server(80);
+AsyncWebServer server(4561);
 
 unsigned long resetStart = 0;
 int lastShownSecond = -1;
